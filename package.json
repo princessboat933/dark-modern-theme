@@ -1,0 +1,21 @@
+{
+  "name": "dark-fantasy-theme",
+  "displayName": "Dark Fantasy Theme",
+  "description": "Custom VS code dark fantasy theme!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Fantasy Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Fantasy Theme-color-theme.json"
+      }
+    ]
+  }
+}
